@@ -15,6 +15,8 @@ while True:
     lower_red = np.array([0, 120, 70])
     upper_red = np.array([10, 255, 255])
 
+    
+
     # Create mask
     mask = cv2.inRange(hsv, lower_red, upper_red)
 
